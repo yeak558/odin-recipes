@@ -1,0 +1,36 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Brush Script MT", cursive, sans-serif;
+}
+
+body {
+	background-color: MediumTurquoise;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	background-color: PowderBlue;
+	margin: 20px;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	padding: 10px;
+	margin: 10px;
+	background-color: azure;
+}
+
+.title {
+	background-color: azure;
+	margin: 20px;
+	padding: 20px;
+}
