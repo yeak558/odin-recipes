@@ -1,3 +1,4 @@
+/* Init Declerations */
 * {
 	margin: 0px;
 	padding: 0px;
@@ -5,32 +6,75 @@
 	font-family: "Brush Script MT", cursive, sans-serif;
 }
 
-body {
-	background-color: MediumTurquoise;
-	text-align: center;
-}
-
-ul {
-	list-style-type: none;
+a {
+	text-decoration: none;
 }
 
 li {
-	background-color: PowderBlue;
-	margin: 20px;
+	list-style-type: none;
+}
+
+
+/* Layout Declerations */
+
+.main-container {
+	background-color: #5a3206;
+	width: 100%;
+	height: 1000px; /* to be changed later */
+	/* Layout */
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+header {
+	background-color: #472602;
+	border-bottom: 5px solid #3b1f01;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+
+main {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+section {
+	display: flex;
+	background-color: rgb(162, 161, 161);
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+	height: 700px; 
+	gap: 50px;
+	border: 2px solid white;
+}
+
+/* Specific Declerations */
+
+.title {
+	color: white;
 	padding: 20px;
+	width: 100%;
+	text-align: center;
 }
 
 a {
-	text-decoration: none;
 	font-weight: bold;
 	color: black;
 	padding: 10px;
 	margin: 10px;
-	background-color: azure;
+	background-color: rgb(222, 222, 222);
+	border: 2px solid black;
+	border-radius: 15px;
 }
 
-.title {
-	background-color: azure;
-	margin: 20px;
-	padding: 20px;
+img {
+	width: 400px;
+	height: auto;
 }
